@@ -1,8 +1,46 @@
-.container-app-info {
-    width: 1200;
-    height: 434;
-    top: 60px;
-    left: 120px;
+.download-app-section {
+    color: white;
     border-radius: 40px;
     background: linear-gradient(102.01deg, #23265C 1.96%, #352A56 101.68%);
+    padding: 40px 40px 0px 40px;
+    margin-top: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.container-app-info {
+    width: 451px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.title-apps {
+    font-weight: 600;
+    font-size: 47.27px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.subtitle-apps {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+}
+
+.play-market-and-app-store {
+    margin-top: 45px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    width: 100%
 }

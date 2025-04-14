@@ -134,8 +134,20 @@
     letter-spacing: 0%;
     width: 300px;
     height: 49px;
-    cursor: pointer;
+    cursor: no-drop;
 }
+
+/* .btn-free-plan:hover {
+    border: 1px solid rgba(245, 68, 59, 1);
+    color: rgba(245, 68, 59, 1);
+    transition: 0.3s;
+}
+
+.btn-free-plan:not(:hover) {
+    border: 1px solid rgba(245, 68, 59, 0.5);
+    color: rgba(245, 68, 59, 0.5);
+    transition: 0.3s;
+} */
 
 .btn-express-plan {
     background-color: rgba(39, 41, 83, 0);
@@ -152,6 +164,18 @@
     cursor: pointer;
 }
 
+.btn-express-plan:hover {
+    background-color: rgba(245, 68, 59, 1);
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-express-plan:not(:hover) {
+    background-color: rgba(39, 41, 83, 0);
+    color: rgba(245, 68, 59, 1);
+    transition: 0.3s;
+}
+
 .btn-premium-plan {
     background-color: rgba(245, 68, 59, 1);
     border: 1px solid rgba(245, 68, 59, 1);
@@ -165,4 +189,14 @@
     width: 300px;
     height: 49px;
     cursor: pointer;
+}
+
+.btn-premium-plan:hover {
+    /* box-shadow: 2px 2px 2px 2px ; */
+    box-shadow: 3px 0px 44px 11px rgba(245, 68, 59, 1);
+    transition: 0.3s;
+}
+
+.btn-premium-plan:not(:hover) {
+    transition: 0.3s;
 }
