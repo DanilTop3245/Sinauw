@@ -1,0 +1,8 @@
+.container-app-info {
+    width: 1200;
+    height: 434;
+    top: 60px;
+    left: 120px;
+    border-radius: 40px;
+    background: linear-gradient(102.01deg, #23265C 1.96%, #352A56 101.68%);
+}

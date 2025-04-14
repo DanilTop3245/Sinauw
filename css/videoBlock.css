@@ -1,0 +1,52 @@
+.video-block {
+    margin-top: 174px;
+    text-align: center;
+    color: white;
+}
+
+.title-block {
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 18px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 105px;
+}
+
+.video {
+    width: 622px;
+    height: auto;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3.91px solid rgba(34, 32, 131, 0.13)
+}
+
+.see-more{ 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    margin-top: 70px;
+    margin-bottom: 185px;
+}
+
+.see-more-p {
+    margin: 0;
+    cursor: pointer;
+    color: rgba(209, 209, 215, 1);
+    font-size: 14px;
+}
+
+.arrow {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(209, 209, 215, 1);
+    mask: url('../assets/arrow.svg') no-repeat center;
+    -webkit-mask: url('../assets/arrow.svg') no-repeat center;
+    cursor: pointer;
+}

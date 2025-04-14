@@ -1,0 +1,38 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 219px;
+}
+
+.user-group {
+    background: url('../assets/userGroup.svg') no-repeat center;
+    align-content: center;
+}
+
+.teacher-backboard {
+    background: url('../assets/teacherBlackboard.svg') no-repeat center;
+}
+
+.bxs-book {
+    background: url('../assets/bxsBook.svg') no-repeat center;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    width: 311px;
+}
+
+.title-cards {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.description-cards {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+

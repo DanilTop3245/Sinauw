@@ -1,0 +1,192 @@
+.skills {
+    color: white;
+    margin-top: 96px;
+}
+
+.container-titles {
+    text-align: center;
+    margin-bottom: 84px;
+}
+
+.question-skills {
+    font-size: 36px;
+}
+
+.subquestion {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.no-button-card {
+    height: 374px;
+}
+
+
+.card-skill {
+    width: 252px;
+    padding: 12px 12px 12px 12px;
+
+    border-radius: 20px;
+    background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
+    border: 3px solid rgba(50, 52, 101, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.figma-card {
+    background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)),
+                url('../assets/Figma.jpg') no-repeat center;
+}
+
+.tech-card {
+    background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)), 
+                url('../assets/marketingStrategy.avif') no-repeat center;
+}
+
+.html-card {
+    background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)), 
+                url('../assets/html.webp') no-repeat center;
+}
+
+.android-card {
+    background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)), 
+                url('../assets/Android.jpg') no-repeat center;
+}
+
+.img-card {
+
+    width: 252px;
+    height: 169px;
+    display: flex;
+    align-items: end;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.count-videos {
+    width: 88px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.technologies {
+    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: rgba(59, 245, 189, 1);
+    font-size: 12px;
+}
+
+.digital {
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.aims {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.line {
+    border: 0.5px solid rgba(41, 43, 86, 1);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.human-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.fullname {
+    margin: 0;
+
+}
+
+.field {
+    margin: 0;
+}
+
+.btn-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+
+.access {
+    padding: 12px 32px;
+    background-color: rgba(245, 68, 59, 1);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    border: 1px solid rgba(245, 68, 59, 1);
+}
+
+.access:hover {
+    background: none;
+    color: rgba(245, 68, 59, 1);
+    border: 1px solid rgba(245, 68, 59, 1);
+    transition: 0.3s;
+}
+
+.access:not(:hover) {
+    background: rgba(245, 68, 59, 1);
+    color: white;
+    transition: 0.3s;
+}
+
+.view-all-classes {
+    margin-top: 55px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-view-all-classes {
+    padding: 16px 32px;
+    border: 1px solid rgba(245, 68, 59, 1);
+    background: none;
+    color: rgba(245, 68, 59, 1);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-view-all-classes:hover {
+    background: rgba(245, 68, 59, 1);
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-view-all-classes:not(:hover) {
+    background: none;
+    color: rgba(245, 68, 59, 1);
+    transition: 0.3s;
+}
