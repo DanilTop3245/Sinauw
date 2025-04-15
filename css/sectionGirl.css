@@ -1,0 +1,157 @@
+.girl-and-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.input-container {
+    max-width: 510px;
+}
+
+.title-input {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.subtext-title {
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 56px;
+}
+
+.search-input {
+    height: 56px;
+    width: 506px;
+    padding-left: 32px;
+    background: none;
+    color: rgba(255, 255, 255, 0.4);
+    border: none;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.search-input:active,
+.search-input:focus {
+    outline: none;
+}
+
+.search-string {
+    display: flex;
+    align-items: center;
+    background-color: rgba(31, 33, 67, 1);
+    border-radius: 12px;
+    padding: 10px;
+    width: 506px;
+    position: relative;
+}
+
+.loupa {
+    background-color: rgba(40, 43, 87, 1);
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.text-under-input {
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 48px;
+    margin-bottom: 34px;
+}
+
+.subjects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    padding: 0;
+
+}
+
+.subjects {
+    list-style: none;
+    border: 1px solid rgba(154, 156, 203, 0.6);
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-size: 14px;
+    color: rgba(154, 156, 203, 0.6);
+    cursor: pointer;
+}
+
+@media (max-width: 960px) and (min-width: 600px) {
+    .girl {
+        display: none;
+    }
+
+    .title-input {
+        font-size: 36px;
+    }
+
+    .input-container {
+        width: 360px;
+        text-align: center;
+    }
+
+    .girl-and-input-container {
+        justify-content: center;
+    }
+
+    .search-string {
+        width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .girl {
+        display: none;
+    }
+
+    .title-input {
+        font-size: 36px;
+    }
+
+    .input-container {
+        width: 360px;
+        text-align: center;
+    }
+
+    .girl-and-input-container {
+        justify-content: center;
+    }
+
+    .search-string {
+        width: auto;
+    }
+}
+
+@media (max-width: 1264px) {
+    .girl {
+        display: none;
+    }
+
+    
+
+    .girl-and-input-container {
+        justify-content: center;
+    }
+
+    .search-string {
+        width: auto;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1264px) {
+    .girl {
+        display: none;
+    }
+
+    .girl-and-input-container {
+        justify-content: center;
+    }
+
+    .search-string {
+        width: auto;
+    }
+}

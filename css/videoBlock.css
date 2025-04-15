@@ -26,7 +26,7 @@
     border: 3.91px solid rgba(34, 32, 131, 0.13)
 }
 
-.see-more{ 
+.see-more {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -49,4 +49,16 @@
     mask: url('../assets/arrow.svg') no-repeat center;
     -webkit-mask: url('../assets/arrow.svg') no-repeat center;
     cursor: pointer;
+}
+
+@media (max-width: 960px) and (min-width: 600px) {
+    .video {
+            width: 100%;
+        }
+}
+
+@media (max-width: 600px) {
+    .video {
+        width: 100%;
+    }
 }

@@ -42,22 +42,22 @@
 
 .figma-card {
     background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)),
-                url('../assets/Figma.jpg') no-repeat center;
+        url('../assets/Figma.jpg') no-repeat center;
 }
 
 .tech-card {
-    background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)), 
-                url('../assets/marketingStrategy.avif') no-repeat center;
+    background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)),
+        url('../assets/marketingStrategy.avif') no-repeat center;
 }
 
 .html-card {
-    background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)), 
-                url('../assets/html.webp') no-repeat center;
+    background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)),
+        url('../assets/html.webp') no-repeat center;
 }
 
 .android-card {
-    background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)), 
-                url('../assets/Android.jpg') no-repeat center;
+    background: linear-gradient(rgba(30, 32, 67, 0.3), rgba(30, 32, 67, 0.3)),
+        url('../assets/Android.jpg') no-repeat center;
 }
 
 .img-card {
@@ -189,4 +189,38 @@
     background: none;
     color: rgba(245, 68, 59, 1);
     transition: 0.3s;
+}
+
+@media (max-width: 960px) and (min-width: 600px) {
+    .girl {
+        display: none;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-card {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .girl {
+        display: none;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-card {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }

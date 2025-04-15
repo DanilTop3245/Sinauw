@@ -57,3 +57,55 @@
     gap: 5px;
     cursor: pointer;
 }
+
+.burger {
+    width: 30px;
+    fill: white !important;
+    display: none;
+}
+
+@media (max-width: 960px) and (min-width: 600px) {
+    .burger {
+        display: block;
+        margin: 0;
+    }
+
+    .header {
+        flex-direction: row-reverse;
+    }
+
+    .header-icon {
+        display: none;
+    }
+
+    .navbar-container {
+        display: none;
+    }
+
+    .button-container {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .burger {
+        display: block;
+        margin: 0;
+    }
+
+    .header {
+        flex-direction: row-reverse;
+    }
+
+    .header-icon {
+        display: none;
+    }
+
+    .navbar-container {
+        display: none;
+    }
+
+    .button-container {
+        display: none;
+    }
+}
