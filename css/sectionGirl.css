@@ -119,7 +119,7 @@
 
     .girl-and-input-container {
         justify-content: center;
-        
+
     }
 
     .search-string {
@@ -139,6 +139,16 @@
     .search-string {
         width: auto;
     }
+
+    .input-container {
+        max-width: 900px;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+
 }
 
 @media (max-width: 1440px) and (min-width: 1264px) {
@@ -152,5 +162,13 @@
 
     .search-string {
         width: auto;
+    }
+
+    .input-container {
+        max-width: 900px;
+    }
+
+    .search-input {
+        width: 100%;
     }
 }
