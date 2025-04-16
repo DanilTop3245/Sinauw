@@ -74,10 +74,6 @@
         flex-direction: row-reverse;
     }
 
-    .header-icon {
-        display: none;
-    }
-
     .navbar-container {
         display: none;
     }
@@ -95,12 +91,9 @@
 
     .header {
         flex-direction: row-reverse;
-        width: 97%;
+        width: auto;
     }
 
-    .header-icon {
-        display: none;
-    }
 
     .navbar-container {
         display: none;
