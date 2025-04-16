@@ -39,11 +39,13 @@
 @media (max-width: 960px) and (min-width: 600px) {
     .card-container {
         flex-direction: column;
+        margin-top: 50px;
     }
 }
 
 @media (max-width: 600px) {
     .card-container {
         flex-direction: column;
+        margin-top: 50px;
     }
 }

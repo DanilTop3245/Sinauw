@@ -210,13 +210,10 @@
 }
 
 @media (max-width: 600px) {
-    .girl {
-        display: none;
-    }
-
     .skills {
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
 
     .container-card {
@@ -230,6 +227,7 @@
     .skills {
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
 
     .container-card {

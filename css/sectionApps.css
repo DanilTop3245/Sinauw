@@ -49,6 +49,8 @@
     .download-app-section {
         padding: 40px;
         flex-direction: column-reverse;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
 
     .img-apps-social {
@@ -75,6 +77,8 @@
     .download-app-section {
         padding: 40px;
         flex-direction: column-reverse;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
 
     .img-apps-social {

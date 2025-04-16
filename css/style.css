@@ -6,9 +6,9 @@ body {
 
 @media (max-width: 600px) {
     body {
-        padding: 5px;
+        padding: 12px;
         margin: 0;
-        width: 95%;
+        width: auto;
     }
 
     .main-container {
@@ -20,23 +20,25 @@ body {
 
 @media (max-width: 960px) and (min-width: 600px) {
     body {
-        padding: 10px;
+        padding: 12px;
         margin: 0;
     }
 
     .main-container {
         text-align: center;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 1264px) {
     body {
-        padding: 0 auto;
+        padding: 12px;
     }
 
     .main-container {
         text-align: center;
         width: auto;
+        margin: 0 auto;
     }
 }
 
