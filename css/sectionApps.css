@@ -90,6 +90,7 @@
 
     .play-market-and-app-store {
         width: auto;
+        flex-direction: column;
     }
 
     .container-app-info {

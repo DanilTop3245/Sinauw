@@ -53,12 +53,30 @@
 
 @media (max-width: 960px) and (min-width: 600px) {
     .video {
-            width: 100%;
+            width: 90%;
         }
 }
 
 @media (max-width: 600px) {
+    .video-block {
+        width: auto;
+        /* margin: 0 auto; */
+    }
+
     .video {
-        width: 100%;
+        width: 90%;
+    }
+
+    .subtitle {
+        text-align: center;
+        width: 90%;
+    }
+
+    .see-more {
+        justify-content: center;
+    }
+
+    .arrow {
+        display: none;
     }
 }

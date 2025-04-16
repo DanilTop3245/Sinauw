@@ -95,6 +95,7 @@
 
     .header {
         flex-direction: row-reverse;
+        width: 97%;
     }
 
     .header-icon {
